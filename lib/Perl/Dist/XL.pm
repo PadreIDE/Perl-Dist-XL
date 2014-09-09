@@ -89,7 +89,7 @@ Install Plugins: Perl 6, Catalyst
   sudo aptitude install subversion vim libfile-homedir-perl libmodule-install-perl 
   sudo aptitude install libcpan-mini-perl perl-doc libgtk2.0-dev g++
 
-  svn co http://svn.perlide.org/padre/trunk/Perl-Dist-XL/
+  svn co https://github.com/PadreIDE/Perl-Dist-XL/
   cd Perl-Dist-XL
   perl script/perldist_xl.pl --download 
   perl script/perldist_xl.pl --clean

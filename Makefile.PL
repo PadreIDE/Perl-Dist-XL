@@ -37,7 +37,7 @@ test_requires  'Test::More'               => '0.47';
 no_index       'directory'                => qw{ t xt eg share inc };
 homepage       'http://padre.perlide.org/';
 bugtracker     'http://padre.perlide.org/';
-repository     'http://svn.perlide.org/padre/trunk/Perl-Dist-XL/';
+repository     'https://github.com/PadreIDE/Perl-Dist-XL/';
 install_script 'script/perldist_xl.pl';
 install_share;
 
